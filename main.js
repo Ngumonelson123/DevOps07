@@ -1,7 +1,7 @@
 <% if (user) { %>
     <h2><%= user.name %></h2>
   <% } %>
-  
+
   let template = ejs.compile(str, options);
   template(data);
   // => Rendered HTML string
